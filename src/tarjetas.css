@@ -1,21 +1,61 @@
+
+
 .container{
     width: 100%;
-    height: 100vh;
+  
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #fae0e4;
   
    
 }
+.card{
+    width: 100%;
+    height: 700px;
+    text-align: center;
+    border: black solid 3px;
+    background-color: brown;
+   
+}
+.card:hover{
+    box-shadow: 3px 3px 1px 5px rgba(192, 204, 200, 1);
+    transition: all 0.7s linear;
+}
+
 
 
 .card-body{
     text-align: center;
-     color: white;
-     height: auto;
+    background: #f9bec7;
+
+     
+    
+}
+h4{
+    padding-top: 30px;
 }
 
-.todo{
-    background-color:#e07a5f;
-  
+.card-text{
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    
+}
+
+
+.btn-primary{
+    margin-top: 20px;
+    padding: 10px;
+}
+.overflow{
+    overflow: hidden;
+}
+.card-img-top{
+    transition: all 0.2s ease-in-out !important;
+}
+.card-img-top:hover{
+    transform: scale(1.8);
 }
